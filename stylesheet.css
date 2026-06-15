@@ -1,0 +1,71 @@
+body {
+    background-color: #2f3337;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+
+    width: fit-content;
+    height: fit-content;
+
+    overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    font-weight: normal;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 0;
+}
+
+td {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    text-align: center;
+    padding: 4px 12px;
+}
+
+/* Header row */
+.header-row td {
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-bottom: 2px solid white;
+}
+
+/* Force player and goal diff columns to use page background */
+tr:not(.header-row) td:nth-child(2),
+tr:not(.header-row) td:nth-child(4) {
+    background-color: #2f3337;
+}
+
+/* Player rows */
+tr:not(.header-row) td {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+/* Rank column */
+td:nth-child(1) {
+    width: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* Player column */
+td:nth-child(2) {
+    width: 250px;
+}
+
+/* Wins column */
+td:nth-child(3) {
+    width: 40px;
+}
+
+/* Goal Diff column */
+td:nth-child(4) {
+    width: 40px;
+}
