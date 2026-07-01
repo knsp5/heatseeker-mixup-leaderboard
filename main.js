@@ -20,7 +20,7 @@ function loadLeaderboard() {
         "#ffffb6",
         "#b7ffb7",
         "#ffdbb6",
-        "#efbfbf",
+        "#ace6e9",
         "#b7b7ff"
     ];
 
